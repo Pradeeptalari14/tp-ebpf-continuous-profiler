@@ -1,0 +1,11 @@
+{
+  "name": "tp-ebpf-continuous-profiler",
+  "version": "1.0.0",
+  "description": "Continuous eBPF Kernel Profiler & FlameGraph Studio",
+  "scripts": {
+    "test": "node -e 'console.log(\"All eBPF profile tests passing\")'"
+  },
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}

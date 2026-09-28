@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  ebpf-profiler:
+    image: python:3.11-slim
+    privileged: true
+    pid: host
+    network_mode: host
+    volumes:
+      - /sys/kernel/debug:/sys/kernel/debug:rw
+      - /lib/modules:/lib/modules:ro
+      - /usr/src:/usr/src:ro
+      - .:/app
+    working_dir: /app
+    command: python ebpf_profiler_daemon.py --sample-rate=99 --buffer-size-mb=16
+    restart: unless-stopped
+    ports:
+      - "9102:9102"
