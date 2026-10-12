@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # Continuous eBPF Kernel Profiler & FlameGraph Studio
 
 [![CI SRE Validation](https://github.com/Pradeeptalari14/tp-ebpf-continuous-profiler/actions/workflows/sre-validation.yml/badge.svg)](https://github.com/Pradeeptalari14/tp-ebpf-continuous-profiler/actions)
@@ -20,3 +23,6 @@ git clone https://github.com/Pradeeptalari14/tp-ebpf-continuous-profiler.git
 cd tp-ebpf-continuous-profiler
 bash scripts/validate.sh
 ```
+
+---
+*Synchronized with [Continuous eBPF Kernel Profiler & FlameGraph Studio Studio](https://pradeeptalari.me/tools/ebpf-continuous-profiler/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
